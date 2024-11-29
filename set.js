@@ -28,8 +28,8 @@ ANTIDELETE: process.env.ANTIDELETE || "false",
 ANTICALL: process.env.ANTICALL || "false",
 ANTICALL_MSG: process.env.ANTICALL_MSG || "*_📞 Auto Call Reject Mode Activated by Gifted-Md. 📵 No Calls Allowed Dude!_*",
 AUTO_REACT: process.env.AUTO_REACT || "false",
-BOT_NAME: process.env.BOT_NAME || "𝐆𝐈𝐅𝐓𝐄𝐃-𝐌𝐃", // Input Yours custom...(Maintain font for Flow)
-BOT_PIC: process.env.BOT_PIC || "https://files.giftedtech.my.id/file/gifted-md.jpg", // You can Replace with yours...
+BOT_NAME: process.env.BOT_NAME || "★XΩLΩTL★®", // Input Yours custom...(Maintain font for Flow)
+BOT_PIC: process.env.BOT_PIC || "https://files.catbox.moe/b70cly.jpg", // You can Replace with yours...
 AUTO_AUDIO: process.env.AUTO_AUDIO || "false",
 WELCOME: process.env.WELCOME || "false",
 GOODBYE: process.env.GOODBYE || "false",    
@@ -40,7 +40,7 @@ TIME_ZONE: process.env.TIME_ZONE || "Africa/Nairobi", // Enter yours else leave 
 };
 
 global.myName = "gifted-md"; // DO NOT Change this.... Change and Regret Later...
-global.footer = "*ᴘᴏᴡᴇʀᴇᴅ ʙʏ ɢɪғᴛᴇᴅ ᴛᴇᴄʜ*"; // Input Yours custom...(Maintain font for Flow)
+global.footer = "*𝚁𝙰𝙿𝙷𝙰𝙴𝙻 . 𝚇𝙾𝙻𝙾𝚃𝙻*"; // Input Yours custom...(Maintain font for Flow)
 
 let file = require.resolve(__filename)
 fs.watchFile(file, () => { fs.unwatchFile(file);console.log(`Update'${__filename}'`);delete require.cache[file];	require(file); })
